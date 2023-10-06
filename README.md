@@ -68,8 +68,8 @@
 
 ### GPT
 **Architecture**:
-![image](https://github.com/RaviNaik/ERA-SESSION17/assets/23289802/55f3dd87-2059-46a4-932f-77b1c58aafb4)
-![image](https://github.com/RaviNaik/ERA-SESSION17/assets/23289802/2d64d6fc-7c6d-4f27-bbe4-9e70258ad09c)
+![image](https://github.com/RaviNaik/ERA-SESSION17/assets/23289802/cff53789-5937-4dee-9536-92d3adf30213)
+
 
 #### Model Summary:
 ```python
