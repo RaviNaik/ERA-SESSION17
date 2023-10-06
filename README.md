@@ -129,7 +129,53 @@
 ![image](https://github.com/RaviNaik/ERA-SESSION17/assets/23289802/70a22928-91a7-4b4c-b230-268621e2bfe8)
 
 #### Model Summary:
-
+```python
+   | Name                             | Type                    | Params
+------------------------------------------------------------------------------
+0  | patch_embedding                  | PatchEncoding           | 0     
+1  | patch_embedding.flatten          | Flatten                 | 0     
+2  | linear_mapper                    | Linear                  | 590 K 
+3  | pe                               | PositionalEncoding      | 0     
+4  | embedding_dropout                | Dropout                 | 0     
+5  | transformer_layers               | Sequential              | 42.5 M
+6  | transformer_layers.0             | TransformerLayer        | 7.1 M 
+7  | transformer_layers.0.mha         | MultiheadAttention      | 2.4 M 
+8  | transformer_layers.0.ln1         | LayerNorm               | 1.5 K 
+9  | transformer_layers.0.ln2         | LayerNorm               | 1.5 K 
+10 | transformer_layers.0.feedforward | PositionwiseFeedForward | 4.7 M 
+11 | transformer_layers.1             | TransformerLayer        | 7.1 M 
+12 | transformer_layers.1.mha         | MultiheadAttention      | 2.4 M 
+13 | transformer_layers.1.ln1         | LayerNorm               | 1.5 K 
+14 | transformer_layers.1.ln2         | LayerNorm               | 1.5 K 
+15 | transformer_layers.1.feedforward | PositionwiseFeedForward | 4.7 M 
+16 | transformer_layers.2             | TransformerLayer        | 7.1 M 
+17 | transformer_layers.2.mha         | MultiheadAttention      | 2.4 M 
+18 | transformer_layers.2.ln1         | LayerNorm               | 1.5 K 
+19 | transformer_layers.2.ln2         | LayerNorm               | 1.5 K 
+20 | transformer_layers.2.feedforward | PositionwiseFeedForward | 4.7 M 
+21 | transformer_layers.3             | TransformerLayer        | 7.1 M 
+22 | transformer_layers.3.mha         | MultiheadAttention      | 2.4 M 
+23 | transformer_layers.3.ln1         | LayerNorm               | 1.5 K 
+24 | transformer_layers.3.ln2         | LayerNorm               | 1.5 K 
+25 | transformer_layers.3.feedforward | PositionwiseFeedForward | 4.7 M 
+26 | transformer_layers.4             | TransformerLayer        | 7.1 M 
+27 | transformer_layers.4.mha         | MultiheadAttention      | 2.4 M 
+28 | transformer_layers.4.ln1         | LayerNorm               | 1.5 K 
+29 | transformer_layers.4.ln2         | LayerNorm               | 1.5 K 
+30 | transformer_layers.4.feedforward | PositionwiseFeedForward | 4.7 M 
+31 | transformer_layers.5             | TransformerLayer        | 7.1 M 
+32 | transformer_layers.5.mha         | MultiheadAttention      | 2.4 M 
+33 | transformer_layers.5.ln1         | LayerNorm               | 1.5 K 
+34 | transformer_layers.5.ln2         | LayerNorm               | 1.5 K 
+35 | transformer_layers.5.feedforward | PositionwiseFeedForward | 4.7 M 
+36 | lm_head                          | Linear                  | 2.3 K 
+37 | softmax                          | Softmax                 | 0     
+------------------------------------------------------------------------------
+43.1 M    Trainable params
+0         Non-trainable params
+43.1 M    Total params
+172.484   Total estimated model params size (MB)
+```
 
 **Training Logs**:
 
