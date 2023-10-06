@@ -6,6 +6,9 @@
 3.   :heavy_check_mark: Share the link to a single repo where all 3 ipynb files can be found
 
 ### BERT
+**Architecture:**
+![image](https://github.com/RaviNaik/ERA-SESSION17/assets/23289802/7bdad8c3-ba7e-497a-b735-8f2ce7638701)
+
 #### Model Summary:
 ```python
    | Name                             | Type                    | Params
@@ -120,3 +123,12 @@
 ```
 **Training Logs**:
 
+
+### ViT
+**Architecture:**
+![image](https://github.com/RaviNaik/ERA-SESSION17/assets/23289802/70a22928-91a7-4b4c-b230-268621e2bfe8)
+
+#### Model Summary:
+
+
+**Training Logs**:
