@@ -176,6 +176,12 @@
 43.1 M    Total params
 172.484   Total estimated model params size (MB)
 ```
+**Sample Data:**
+![image](https://github.com/RaviNaik/ERA-SESSION17/assets/23289802/645f3a6c-fcf9-4e67-906e-4e294839eca0)
+
+**Patchified Image:**
+![image](https://github.com/RaviNaik/ERA-SESSION17/assets/23289802/c9ad1d32-8dde-4543-a075-39e66d5cf57a)
 
 **Training Logs**:
+![image](https://github.com/RaviNaik/ERA-SESSION17/assets/23289802/748d2640-171d-46da-b7d1-7b17d4e6c67f)
 
