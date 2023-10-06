@@ -122,7 +122,7 @@
 357.758   Total estimated model params size (MB)
 ```
 **Training Logs**:
-
+![image](https://github.com/RaviNaik/ERA-SESSION17/assets/23289802/e03b464d-2a96-493e-ad52-776560105aa4)
 
 ### ViT
 **Architecture:**
@@ -132,3 +132,4 @@
 
 
 **Training Logs**:
+
